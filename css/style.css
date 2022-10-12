@@ -1,0 +1,254 @@
+:root{
+--primary-text-color:#212121;
+--title-text-color:#757575;
+--accent-color:#2196F3;
+--logo-text-color:#000000;
+--primary-bg-color:#ffffff;
+--primary-color-site:#2F303A;
+--secondary-text-color:#F5F4FA;
+--secondary-bg-color:rgba(255, 255, 255, 0.6);
+--active-btm-color:#188CE8;
+}
+
+body{
+font-family:'Roboto';
+color: var(--primary-text-color);
+}
+
+ul{
+list-style: none;
+text-decoration: none;
+}
+
+/* Style site */
+.main-section {
+background-color:var(--primary-color-site);
+}
+
+.footer-section{
+background-color:var(--primary-color-site)
+}
+
+/* Logo Company */
+header .logo {
+  color:var(--accent-color);}
+.icon{
+color: var(--logo-text-color)}
+
+.logo{
+text-decoration: none;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.footer-logo{
+color: var(--accent-color);
+}
+
+.footer-icon{
+color: var(--primary-bg-color);
+}
+
+.footer-logo{
+text-decoration: none;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+/* site nav */
+
+.link{
+color: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+border: 1px solid var(--accent-color;)
+}
+
+.link:hover{
+color:var(--accent-color);
+}
+
+.link:focus{
+color: var(--accent-color);
+background-color: var(--primary-bg-color);
+}
+
+.link-blue { 
+font-weight: 500;
+font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.02em;
+color:inherit;
+color: var(--accent-color);
+}
+
+.site-nav .link-blue{
+text-decoration: none;
+color:var(--accent-color);
+} 
+
+/* Contacts */
+
+.contacts .list {
+color: var(--title-text-color);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.list:hover {
+color: var(--accent-color);
+}
+.list:focus {
+color: var(--accent-color);
+}
+
+/* Section */
+
+.main-section .title {
+color:var(--primary-bg-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.main-about{
+font-weight: 700;
+font-size: 36px;
+line-height:1.16;
+letter-spacing: 0.03em;
+}
+
+/* Buttons */
+
+.button{
+font-family: 'Roboto';
+text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+line-height:1.6;
+letter-spacing: 0.03em;
+color: inherit;
+cursor: pointer;
+}
+
+.button:hover{
+color: var(--primary-bg-color);
+background-color:var(--active-btm-color)
+}
+
+.button:focus{
+color: var(--primary-bg-color);
+background-color: var(--active-btm-color);
+}
+
+.button-primary{
+background-color:var(--accent-color) ;
+color: var(--primary-bg-color);
+cursor: pointer;
+text-decoration: none;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+}
+
+.button-primary:hover{
+background-color:var(--active-btm-color)
+}
+.button-primary:focus{
+background-color: var(--active-btm-color)
+}
+
+/* about-company*/
+
+.section-company{
+background-color:var(--secondary-text-color)
+}
+
+.about{
+background-color: var(--primary-bg-color);
+}
+
+.section-title{
+font-weight: 700;
+font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.project-title{
+font-weight: 700;
+font-size: 18px;
+line-height:2;
+letter-spacing: 0.06em;
+}
+
+.project-section{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.about-team{
+font-size: 16px;
+line-height:1.18; 
+color:var(--title-text-color)
+}
+
+.team{
+font-size: 16px;
+line-height:1.87;
+color: var(--title-text-color)
+}
+.team-list{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+/* Secondary text */
+
+.secondary-text{
+color: var(--title-text-color);
+font-size: 14px;
+line-height:1.7;
+}
+
+/* footer */
+
+.footer-text{
+text-decoration:none;
+font-style: normal;
+font-size:14px;
+line-height:1.7;
+letter-spacing: 0.03em;
+}
+.footer-link{
+  text-decoration: none;
+color:var(--secondary-bg-color)
+}
+.footer-link:hover{
+color: var(--accent-color);
+}
+.footer-link:focus{
+color: var(--accent-color);
+}
+.address-map{
+text-decoration: none;
+color: var(--primary-bg-color);
+}
