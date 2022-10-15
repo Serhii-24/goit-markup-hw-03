@@ -102,8 +102,7 @@ margin-bottom: 20px;
 }
 
 .site-nav .item:not(:last-child) {
-
- margin-right: 50px;
+margin-right: 50px;
 }
 
 .link{
@@ -160,7 +159,6 @@ align-items: center;
 }
 .contacts .item+ .item{
 margin-left: 50px;
-
 }
 
 
@@ -293,12 +291,10 @@ text-decoration: none;
   display: flex;
   margin: 50px auto 94px;
   
-
- }
+}
  .team-conteiner{
   display: inline-block;
   text-decoration: none;
-  
  }
 
 /* Buttons */
@@ -378,7 +374,7 @@ letter-spacing: 0.06em;
 }
 
 .project-section{
-  color:#212121;
+ color:var(--primary-text-color);
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
