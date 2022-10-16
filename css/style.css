@@ -178,6 +178,7 @@ color: var(--accent-color);
 }
 /* Main */
 .main-section {
+  display: block;
   background-color: var(--primary-color-site);
   max-width: 1600px;
   margin: 0 auto;
@@ -335,7 +336,7 @@ line-height: 1.87;
 letter-spacing: 0.06em;
 display: inline-block;
 padding: 10px 32px;
-margin-bottom: 30px;
+
 }
 
 .button-primary:hover{
