@@ -90,11 +90,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 }
-.logo-portfolio {
-display: inline-block;
 
-margin-bottom: 20px;
-}
 
 .box-item{
   display: block;
@@ -265,13 +261,16 @@ flex-wrap: wrap;
 
 .section{
   display:flex;
-padding: 94px 0 94px;
+padding: 94px 0px 0px;
 
 }
 .second-conteiner{
   display: flex;
+  
 }
-
+.section-conteiner{
+  width: 270px;
+}
 .section-conteiner:not(:last-child)
 {
   margin-right: 30px;
@@ -447,13 +446,7 @@ line-height:1.7;
   margin: 0 auto;
   padding: 60px 0px;
 }
-.footer-portfolio{
-background-color: var(--primary-color-site);
 
-margin: 0 auto;
-padding: 60px 0;
-
-}
 .address-conteiner{
   display: block;
   width: 231px;
