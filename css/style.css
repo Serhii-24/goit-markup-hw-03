@@ -286,7 +286,7 @@ text-decoration: none;
 }
 .img-list{
   display:flex;
-  padding-top: 50px;
+  margin-top: 50px;
   
  }
  .lists:not(:last-child){
