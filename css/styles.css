@@ -152,10 +152,13 @@ color: #404BBF;
 }
 
 /* section feature */
-.feature-hero-title {
-    visibility: hidden;
-   
-}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+ }
 .feature-lists{
     display: flex;
     gap: 24px;
