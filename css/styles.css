@@ -305,8 +305,4 @@ color: #404BBF;
 
     display: inline-block;
 }
-.footer-container{
-    display: flex;
-    flex-direction: column;
-    
-}
+
