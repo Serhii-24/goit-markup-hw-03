@@ -31,6 +31,9 @@ a {
      margin: 0 auto;
      padding: 0 15px;
  }
+ section{
+    padding: 120px 0;
+ }
 /* Header  navigarion */
 .header{
 border-bottom: 1px solid #ECECEC;;
@@ -107,7 +110,6 @@ color: #404BBF;
     margin: 0 auto;
     text-align: center;
     padding: 188px;
-    margin-bottom: 120px;
 }
 .hero-title {
     font-weight: 700;
@@ -130,9 +132,12 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;;
     display: inline-block;
     padding: 16px 32px;
+
+    border: none;
+    border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -166,13 +171,10 @@ color: #404BBF;
     letter-spacing: 0.02em;
     color: inherit;
 }
-.section-feature{
-    margin-bottom: 120px;
-}
+
 /* section team */
 .section-team {
     background: #f4f4fd;
-    padding: 120px 0;
 }
 .team-title {
     font-weight: 700;
@@ -220,6 +222,18 @@ color: #404BBF;
 }
 
 /* Section Our Portfolio */
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+.portfolio-card-img{
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-top: -5px;
+    padding: 32px 16px;
+   }
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -229,6 +243,8 @@ color: #404BBF;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    margin-bottom: 72px;
 }
 .portfolio-list-title {
     font-weight: 500;
@@ -237,6 +253,7 @@ color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-about-app {
     font-weight: 400;
@@ -260,4 +277,21 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    display: block;
+    width: 264px;
+}
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
 }
